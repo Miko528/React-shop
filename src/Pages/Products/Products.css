@@ -1,0 +1,28 @@
+.products-box {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  align-items: center;
+  justify-items: center;
+}
+.product-box {
+  width: 15vw;
+  height: 30vh;
+  margin: 10px;
+  border: 2px solid #ebebeb;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.product-box:hover {
+  border: 2px solid #d3d2d2;
+}
+.image {
+  max-width: 100%;
+}
+.name {
+  font-size: 22px;
+  margin-left: 5px;
+}
+.price {
+  margin-top: 10px;
+  margin-left: 5px;
+}

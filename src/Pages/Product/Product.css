@@ -1,0 +1,19 @@
+.image-space {
+  width: 50vw;
+  height: 100vh;
+}
+.images {
+  width: 100%;
+}
+.details-space {
+  width: 50vw;
+  height: 100vh;
+  text-align: center;
+}
+.names {
+  display: flex;
+  font-size: 36px;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
